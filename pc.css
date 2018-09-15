@@ -1,0 +1,238 @@
+body{background-color:#111111;
+ }
+h1{
+	height: 1000px;
+	margin:80px 0 5px 0;
+    padding:10px 10px 10px 10px;
+    background: -moz-linear-gradient(left, #008080 50%, #FFF);
+  background: -webkit-linear-gradient(left, #008080 50%, #FFF);
+  background: linear-gradient(to right, #008080 50%, #FFF);
+  text-align:left; 
+
+   color:#fff;
+   
+   
+
+}
+.s{
+
+    z-index: 2;
+   position: absolute;
+     margin:-270px 0 0 790px;
+}
+
+*{
+  margin:0;
+}
+#slide{
+  width:60%;
+  position:relative;
+ 
+} 
+#slide img{
+   position: absolute;
+   left:0;
+   top:0;
+   width: 60%;
+   height: auto;
+}
+
+
+.p1-2{
+	height: 40px;
+	width: 100%;
+	text-align:center; 
+	top:-300px;
+	font-family:"ＭＳ Ｐ明朝";
+	font-size:20px;
+	bottom: 0;
+	position:relative;
+}
+img.example1 {
+width: 600px;
+height: 600px;
+top:-200px;
+position:relative;
+ 
+}
+.logo{
+margin-top:-60px;
+float:right;
+height: 70%;
+width: 70%;
+
+}
+h2{
+	height: 360px;
+    margin:-10px 0 0 0;
+    padding:10px 10px 10px 10px;
+    background-color:#FFFFEE;
+        z-index: 1;
+}
+.p2-1{
+	height: 10px;
+	width: 100%;
+	text-align:left; 
+	margin-top:0px
+	font-family:"ＭＳ Ｐ明朝";
+	font-size:10px;
+	top: 0;
+	color:#000000;
+}
+
+h3{
+	height: 450px;
+    margin:-10px 0 0 0;
+    padding:10px 10px 10px 10px;
+    background-color: #749796;
+    color:#000000;
+   
+}
+.p3-1{
+	height: 100px;
+	width: 100%;
+	text-align:left; 
+	margin-top:0px
+	font-family:"ＭＳ Ｐ明朝";
+	font-size:18px;
+	top: 0;
+	color:#000000;
+}
+h4{
+	height: 120px;
+    margin:-10px 0 0 0;
+    padding:10px 10px 10px 10px;
+    background-color: #EEEEEE;
+    
+}
+
+h5{
+	height: 870px;
+    margin:-10px 0 0 0;
+    padding:10px 10px 10px 10px;
+    background-color: #FFF;
+    font-size:18px;
+}
+table{
+width:100%;
+}
+.scroll{
+overflow: auto;　　　　/*tableをスクロールさせる*/
+white-space: nowrap;　　/*tableのセル内にある文字の折り返しを禁止*/
+}
+.scroll::-webkit-scrollbar{　　/*tableにスクロールバーを追加*/
+ height: 5px;
+}
+.scroll::-webkit-scrollbar-track{　　/*tableにスクロールバーを追加*/
+ background: #F1F1F1;
+}
+.scroll::-webkit-scrollbar-thumb {　　/*tableにスクロールバーを追加*/
+ background: #BCBCBC;
+}
+
+td {width: 150px;
+height: 10px;
+}
+th {
+width: 100px;
+height: 10px;
+}
+table{
+width: 700px;
+height: 60px;
+}
+h6{
+	height: 200px;
+    margin:-10px 0 0 0;
+    padding:10px 10px 10px 10px;
+    background-color: #008080;
+    color:#FFF;
+}
+.p6-1{
+	height: 10px;
+	width: 100%;
+	text-align:center; 
+	margin-top:0px
+	font-family:"ＭＳ Ｐ明朝";
+	font-size:20px;
+	top: 0;
+}
+.p6-2{
+	height: 10px;
+	width: 100%;
+	text-align:center; 
+	margin-top:0px
+	font-family:"ＭＳ Ｐ明朝";
+	font-size:15px;
+	top: 0;
+}
+footer{
+margin-top:-10px;
+background-color:#111111;
+height: 50px;
+width: 100%;
+color:#777777;
+font-size: 13px;
+text-align:center;
+line-height:50px;
+bottom: 0;      
+}
+
+header{
+height: 60px;
+width: 100%;
+background-color:rgba(255,255,255,0.8);
+  position:fixed; 
+top: 0;  
+   
+}
+.ti{
+margin:8px 60px  0 0;
+}
+.ol{
+
+  color:#000000;
+  font-size: 20px;
+  z-index: 1;
+  
+  }
+.olo{
+font-size: 15px;
+}
+h{
+	font-family:"ＭＳ Ｐ明朝";
+	font-size:24px;
+	  color:#000000;
+	  text-align:left; 
+}
+a:link {color: #000000;
+
+text-decoration: none;}
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 2px #c58668;
+    margin:-40px 0 0 0;
+    top:-200px;
+position:relative;
+}
+
+.square_btn:active{
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}
+
+.t{
+ width:300px; 
+ height:150px;
+}
+
